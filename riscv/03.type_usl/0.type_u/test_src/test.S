@@ -1,0 +1,9 @@
+.org 0x0
+.global _start
+_start:
+    li x4, 0x123
+    li x5, 0x12345678
+    lui x6, 0x123
+    lui x7, 0x23
+    la x8, 0x123
+    la x9, 0x23
